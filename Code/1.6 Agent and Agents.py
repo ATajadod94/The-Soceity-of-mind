@@ -11,6 +11,7 @@ class Mind:
 
     def Builder(self):
         # Speciality : making towers from blocks
+        self.Builder.agency = ''
         self.Begin()
         self.Add()
         self.End()
