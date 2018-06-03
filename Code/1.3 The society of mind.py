@@ -1,21 +1,15 @@
 class Mind:
     # A society of mind
+    def __init__(self):
+        pass
 
-    def __init__(self, dict):
-        self.dict = dict
-
-    def __str__(self):
-        return self._template % self
+    def __str__(self):  ## Consciousness (?)
+        pass
 
     def __getitem__(self, key):
-        l = key.split("|")
-        if len(l) == 1:
-            return self.dict[key]
-        else:
-            return getattr(self, l[1])(self.dict[l[0]])
-
-    def li(self, l):
-        return "\n".join(["\t<li>%s</li>" % x for x in l])
+        pass
 
 
-print Template({"list": ["foo", "bar", "baz"]})
+
+print(""" In doing this, we'll try to initate how Galielo and Newton learned so much
+        by studying the simplest kind of pendelums and weights. """)

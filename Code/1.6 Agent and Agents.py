@@ -57,6 +57,15 @@ class Mind:
     def Release(self):
         pass
 
+    def agent(self):
+        pass
 
+    def agency(self):
+        
 print("""Why break things into smaller parts? Because minds, like towers, are made that way
        expect that they're composed of processes instead of blocks.""")
+
+
+
+print(""" Otherwise, our theory would end up resembling the nineteenth-century "chessplaying machine" that was 
+exposed by Edgar Allen Poe to actually conceal a human dwarf inside""")
